@@ -12,7 +12,9 @@ import { MemoHook } from './components/06-memos/MemoHook'
 import { Memorizer1 } from './components/06-memos/Memorizer1'
 import { Padre } from './components/07-tarea-memo/Padre'
 import { HooksApp } from './HooksApp'
+//import './components/08-useReducer/intro-reducer'
 import './index.css'
+import { TodoApp } from './components/08-useReducer/TodoApp'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   /*<React.StrictMode>
@@ -32,8 +34,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <hr/>
     <MemoHook/>
     <hr/>
+    <Padre/>
   </React.StrictMode>*/
   <React.StrictMode>
-    <Padre/>
+    <TodoApp/>
   </React.StrictMode>
+  
 )
