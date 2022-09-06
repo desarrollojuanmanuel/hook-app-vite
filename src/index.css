@@ -6,3 +6,7 @@ body {
 .span-toggle {
   cursor: pointer;
 }
+
+a {
+  margin-left: 0.5rem;
+}
